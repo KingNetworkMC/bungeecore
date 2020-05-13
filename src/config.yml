@@ -1,0 +1,89 @@
+Hubs:
+- Hub-1
+- Hub-2
+- Hub-3
+HubAliases:
+- lobby
+- leave
+Limbo: 'Limbo-1'
+Motd:
+  Allow: true
+  Random: false
+  List:
+  - '&a&lKing&f&lNetwork &8| &fНовый сервер &6Майнкрафт &7[1.8 - 1.14.4]{newline}&fДобавили
+    &aдонат-кейсы &8| &fНаш сайт: &6kingnetwork.ru'
+  - '&a&lKing&f&lNetwork &8| &fНовый сервер &6Майнкрафт &7[1.8 - 1.14.4]{newline}&fДобавили
+    &aмини-игры &8| &fНаш сайт: &6kingnetwork.ru'
+TabList: #Доступные плейсхолдеры: {server}, {newline}, {ping}, {player}
+  Allow: false
+  header: '{newline}&a&lKing&f&lNetwork{newline}&a» &fСервер - &6{server} &a«{newline}&fСписок игроков:{newline}'
+  footer: '{newline}&fВаш пинг: &e{ping}{newline}&fСайт - &ekingnetwork.ru'
+Messages:
+  NoPermissions: '&6Информация &8| &fУ вас недостаточно прав.'
+  NoOnline: '&6Информация &8| &fДанный игрок не в сети.'
+  BungeeInfo:
+    ShowPlugins: true
+    Information: '&6Информация &8| &fНа сервере установлен &eKingBungeeCore &fверсии &a1.0'
+  Server:
+    Allow: true
+    Server: '&6Телепортации &8| &fВы были телепортированы на сервер - &a{server}'
+    Usage: '&6Телепортации &8| &fИспользование - &a/server название'
+    NoExists: '&6Телепортации &8| &fДанного сервера не существует.'
+    AlreadyConnected: '&6Телепортации &8| &fВы уже находитесь на данном сервере.'
+  Find:
+    Allow: true
+    Usage: '&6Телепортации &8| &fИспользуйте - &a/find ник'
+    Find: '&6Телепортации &8| &fИгрок &a{player} &fнаходится на сервере - &a{server}'
+  Report:
+    Allow: true
+    Message: '&6Информация &8| &fПодать жалобу на игрока можно в нашей группе &9ВКонтакте &f- &evk.com/kingnetwork'
+  Rules:
+    Allow: true
+    Message: '&6Информация &8| &fПосмотреть правила можно в нашей группе &9ВКонтакте &f- &evk.com/kingnetwork'
+  Ping:
+    Allow: true
+    Ping: '&6Информация &8| &fВаш пинг: &6{ping}'
+    Other: '&6Информация &8| &fПинг игрока &6{player} &e- &6{ping}'
+  Ignore:
+    Allow: true
+    Usage: '&6Сообщения &8| &fИспользуйте - &a/ignore ник'
+    Yourself: '&6Сообщения &8| &fВы не можете игнорировать самого себя.'
+    Ignore: '&6Сообщения &8| &fТеперь вы игнорируете игрока &a{player}'
+    UnIgnore: '&6Сообщения &8| &fВы больше не игнорируете игрока &a{player}'
+    Target: '&6Сообщения &8| &fУ данного игрока отключены личные сообщения.'
+    You: '&6Сообщения &8| &fВы игнорируете данного игрока.'
+  IgnoreAll:
+    Allow: true
+    Ignore: '&6Сообщения &8| &fВы &cотключили &fличные сообщения.'
+    UnIgnore: '&6Сообщения &8| &fВы &aвключили &fличные сообщения.'
+  Message:
+    Allow: true
+    Yourself: '&6Сообщения &8| &fВы не можете отправлять сообщения самому себе!'
+    Usage: '&6Сообщения &8| &fИспользуйте - &a/msg ник сообщение'
+    To: '&6[{from} > Вы]: &f{message}'
+    From: '&6[Вы > {target}]: &f{message}'
+  Where:
+    Allow: true
+    Where: '&6Информация &8| &fВы находитесь на сервере - &a{server}'
+  Send:
+    Allow: true
+    Usage: '&6Телепортации &8| &fИспользуйте - &a/send ник сервер'
+    From: '&6Телепортации &8| &fВы телепортировали игрока &a{player} &fна сервер &a{server}'
+    To: '&6Телепортации &8| &fАдминистратор &a{sender} &fтелепортировал вас на сервер &a{server}'
+  Online:
+    Allow: true
+    Online: '&6Информация &8| &fОбщий онлайн серверов - &a{online}'
+    Another: '&6Информация &8| &fОнлайн сервера &a{server} &f- &a{online}'
+  Alert:
+    Allow: true
+    Usage: '&6Информация &8| &fИспользование - &a/alert сообщение'
+    Title:
+      header: '&e&lОповещение'
+      footer: '&a{message}'
+    Chat: '&6Информация &8| &fОповещение: &a{message}'
+  Reload: '&6Информация &8| &fКонфигурация успешно перезагружена!'
+  Hub:
+    Allow: true
+    Already: '&6Информация &8| &fВы уже находитесь в лобби.'
+    NeDostupnoNiOdnogo: '&6Информация &8| &fВсе лобби недоступны.'
+    LimboKick: '&6Информация &8| &fСервер, на котором вы находились, упал: {reason}'
