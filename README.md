@@ -13,7 +13,7 @@
 * Игнорировать сообщения игрока - /ignore
 * Отключить личные сообщения - /ignoreall
 
-## Админские команды
+## Команды для админов
 
 * Информация о плагине - /bungee
 * Завершить работу BungeeCord - /end
@@ -34,7 +34,7 @@
 * Команда /server - kingbungeecore.server
 * Команда /send - kingbungeecore.send
 * Команда /where - kingbungeecore.where
-* Команда /ping (пинг остальных) - kingbungeecore.ping
+* Команда /ping (пинг остальных) - kingbungeecore.ping.other
 
 ## Зависимости на момент создания
 
